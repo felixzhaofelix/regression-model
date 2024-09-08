@@ -37,7 +37,7 @@ Install the dependencies:
 ```bash
 make dependencies
 ```
-### FZ_NOV2023: The above command would have actually failed at first because of conflicts between dependencies, after some trial and errors, we have determined that we need to change the content of requirements.in 
+### FZ_NOV2023: The above command would have actually failed at first because of conflicts between dependencies, after some trial and error, I have determined that we need to change the content of requirements.in 
 ### from this:
 ```
 featuretools==0.24.0
