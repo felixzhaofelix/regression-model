@@ -8,7 +8,6 @@ cloning it as is would not run and here are the maintenance steps I made to it t
 Instructions after the marker "FZ_NOV2023: " are modifications from the original blog, but since modifications are already made,
 readers can just execute the commands as is.
 
-This code is used in this [blog post](https://www.tekhnoal.com/regression-model.html).
 
 ## Requirements
 
