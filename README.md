@@ -129,37 +129,5 @@ To start the service locally, execute these commands:
 uvicorn rest_model_service.main:app --reload
 ```
 
-## Generating an OpenAPI Specification
 
-To generate the OpenAPI spec file for the REST service that hosts the model, execute these commands:
-
-```bash
-export PYTHONPATH=./
-generate_openapi --output_file=service_contract.yaml
-```
-
-## Docker
-
-To build a docker image for the service, run this command:
-
-```bash
-docker build -t insurance_charges_model:0.1.0 .
-```
-
-To run the image, execute this command:
-
-```bash
-docker run -d -p 80:80 insurance_charges_model:0.1.0
-```
-
-To watch the logs coming from the image, execute this command:
-
-```bash
-docker logs $(docker ps -lq)
-```
-
-To stop the docker image, execute this command:
-
-```bash
-docker kill $(docker ps -lq)
-```
+#### Present work is based on that of the original author Brian Schmidt [blog post](https://www.tekhnoal.com/regression-model.html).
