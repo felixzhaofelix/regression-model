@@ -48,7 +48,8 @@ dependencies: ## install dependencies from requirements.txt
 	python -m pip install --upgrade setuptools
 	python -m pip install --upgrade wheel
 	python -m pip install pip-tools
-	pip install -r requirements.txt
+	pip-compile requirements.in --upgrade
+# 	pip install -r requirements.txt
 
 test-dependencies: ## install dependencies from test_requirements.txt
 	pip install -r test_requirements.txt
