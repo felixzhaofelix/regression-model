@@ -18,7 +18,7 @@ Python 3.9
 To clone the repository:
 
 ```bash
-git clone https://github.com/schmidtbri/regression-model
+git clone https://github.com/felixzhaofelix/regression-model.git
 ```
 
 To create and activate a virtual environment:
