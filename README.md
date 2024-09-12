@@ -1,4 +1,4 @@
-# Adaptive and Preventive maintenance on a Regression Model 
+# Corrective and Adaptive maintenance on a Regression Model 
 
 Author : Felix Zhao
 
